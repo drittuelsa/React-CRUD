@@ -1,0 +1,39 @@
+table,tr{
+    border:1px black solid;
+    border-collapse: collapse;
+}
+ /* *{
+    text-align: center;
+}
+h1{
+    color:red;
+}
+p{
+    background-color: aquamarine;
+  
+}   */
+ table,tr,td,th{
+    border:1px black solid;
+    border-collapse: collapse; 
+ 
+}
+table{
+    width:700px;
+     /* height: 200px;  */
+   line-height:20px; 
+    margin: auto;
+    margin-top: 20px;
+} 
+#container1{
+    line-height: 32px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    /* display: none; */
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+   
+}
